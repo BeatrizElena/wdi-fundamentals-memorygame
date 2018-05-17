@@ -33,6 +33,10 @@ a {
   font-size: 18px;
   margin: 0 20px;
   text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+a:hover {
+  background-color: white;
 }
 h2 {
   font-family: 'Raleway', sans-serif;
@@ -48,4 +52,34 @@ p {
 }
 img {
   margin: 40px 8px 0 8px;
+}
+footer {
+  text-transform: uppercase;
+  padding: 0 20px;
+  background-color: #0D2C40;
+  color: white;
+  font-size: 14px;
+  letter-spacing: .08em;
+  font-weight: 500;
+}
+.copyright {
+  float: left;
+}
+.message {
+  float: right;
+}
+.copyright .message {
+  font-family: 'Raleway', sans-serif;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+.name {
+  color: #F15B31;
+  font-weight: 700;
 }
